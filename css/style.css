@@ -1,0 +1,151 @@
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background: url(../img/first-bg.jpg) no-repeat center top / cover;
+  height: 600px;
+  margin: auto;
+}
+div {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 930px;
+  margin: 0 auto;
+}
+
+.logo {
+  margin-top: 41px;
+  /* float: left; */
+  display: inline-block;
+}
+nav {
+  float: right;
+  margin-top: 50px;
+}
+
+.menu {
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+.menu li {
+  float: left;
+  display: block;
+  margin-right: 41px;
+}
+
+.menu a {
+  color: floralwhite;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.titles1 {
+  font-size: 40px;
+  color: aliceblue;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 180px;
+}
+h1 {
+  font-size: 75px;
+  color: aliceblue;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 15px;
+}
+.button {
+  background: rgb(216, 231, 6);
+  color: black;
+  border-radius: 3px;
+  display: block;
+  width: 240px;
+  padding: 20px;
+  margin: 0 auto;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 50px;
+}
+
+.title {
+  padding-top: 115px;
+}
+
+.title h2 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.title p {
+  color: black;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.services {
+  margin-top: 50px;
+}
+
+.services-item {
+  width: 270px;
+  float: left;
+  text-align: center;
+}
+
+.services-item h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.services-item p {
+  font-size: 14px;
+  line-height: 1.6em;
+}
+
+.services-item:last-child {
+  float: right;
+}
+.services-item:nth-child(2) {
+  margin-left: 60px;
+}
+
+
+#services {
+    padding-bottom: 120px;
+}
+
+#portfolio {
+    background: #f7f7f7;
+    padding-bottom: 120px;
+
+}
+
+.works {
+    margin-top: 100px;
+}
+
+.works img:nth-child(2) {
+    margin-left: 29px;
+}
+
+.works img:last-child {
+    float: right;
+}
